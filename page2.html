@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=.0">
+    <title>Content Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+
+    <div class="left">
+        <h3 class="company">QUESTION NO:2</h3>
+       
+
+        <p id="p1"><b>
+Problem 2:Sum of Digits of a Number
+Problem Statement:</b>Write an algorithm and pseudocode to find the sum of the digits of an integer.
+Example Input: Number = 1234 Expected Output:
+Sum = 10
+(Use a while loop to extract digits) 
+</p><br>
+
+<p id="p2"><br><b><u>ALGORITHM</u></b><br>
+<br><b>STEP 1:</b>START<br><br>
+<b>STEP 2:</b> DISPLAY ”ENTER THE NUMBER”<br><br>
+<b>STEP 3: </b>INPUT N<br><br>
+<b>STEP 4:</b>SUM ← 0 <br><br>
+<b>STEP 5:</b> WHILE (N > 0)
+             REM ← N%10
+             SUM ← SUM + REM
+            N ← N/10 <br><br>
+<b>STEP 6:</b>END WHILE<br><br>
+<b>STEP 7:</b>DISPLAY "SUM =", SUM  <br><br>
+<b>STEP 8:</b> STOP </p>
+
+     
+    </div>
+    
+
+ <div id="div1" class="left">
+   <p id="p3"><b><u>PSEUDOCODE</u></b><br><br>
+Begin<br><br>
+ Use variables :N of type integer<br><br>
+ Display ”Enter the Number”<br><br>
+ Accept N<br><br>
+ Sum=0<br><br>
+ While (N>0)<br><br>
+ {
+ Rem=N%10<br><br>
+ Sum=Sum+Rem<br><br>
+N=N/10
+ }<br><br>
+ Display”Sum=”,Sum End 
+   </p>
+</div>
+
+    
+
+
+   
+
+</div>
+
+
+<div class="footer">
+    <div class="footer-btn" onclick="window.location.href='page1.html'">PREVIOUS QUESTION</div>
+    <div class="footer-btn" onclick="window.location.href='page2_flowchart.html'">FLOW CHART</div>
+    <div class="footer-btn" onclick="window.location.href='page3.html'">NEXT QUESTION</div>
+</div>
+
+
+
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+#p1{
+    font-size: larger;
+    
+}
+#p2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border:solid;
+    
+    
+    border-width: 2px;
+     border-color: rgb(92, 145, 145);
+     border-top: #ffffff;
+     font-size:large;
+     border-bottom-width: 6px;
+     border-right-width: 0;
+      background-image: url("bg4.jpg");
+}
+#p3{
+   
+    border-radius: 30px;
+    border:solid;
+    border-width: 2px;
+    border-top: #ffffff;
+    border-color: rgb(92, 145, 145);
+    border-bottom-width: 10px;
+    background-color: rgba(21, 255, 0, 0.151);
+    width:600px;
+    height:600px;
+    text-align: center;
+     background-image: url("bg4.jpg");
+    font-size: x-large;
+    border-right-width: 0;
+  
+
+}
+#div3{
+    
+    object-position: center;
+    border-radius:30px;
+    border: solid;
+    border-color: #0d2c0c60;
+    background-color: #17581a8f;
+    
+
+
+   
+}
+body {
+    background: #ffffff;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(90, 230, 255, 0.144);
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    
+   
+   
+    
+}
+
+
+.left {
+    width: 55%;
+    padding: 60px;
+}
+
+.company {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0079ca;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 700;
+    color: #039346;
+    margin: 30px 0;
+}
+
+.green-btn {
+    background: #0085b9;
+    color: white;
+    padding: 18px 60px;
+    border: none;
+    font-size: 22px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.info-box {
+    margin-top: 130px;
+    width: 350px;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+    color: #039346;
+    font-weight: 600;
+}
+
+.dept {
+    font-size: 16px;
+    color: #039346;
+    opacity: 0.8;
+}
+
+
+.right {
+    width: 45%;
+}
+
+.right img {
+    width:fit-content;
+    height:fit-content;
+    object-fit: cover;
+}
+
+
+.footer {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.footer-btn {
+    background: rgb(255, 255, 255);
+    padding: 18px 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #003f5c;
+    font-weight: 600;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.171);
+}
+
+</style>
+</body>
+</html>
